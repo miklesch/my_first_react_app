@@ -2,7 +2,7 @@ export {MyButton}
 
 function MyButton () {
     return (
-        <button>Check</button>
+        <button className="button">Check</button>
     )
 };
 
