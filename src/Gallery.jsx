@@ -3,11 +3,11 @@ import { RenderImages } from "./RenderImages"
 
 function Gallery() {
     return (
-        <section>
+        <div className="image-gallery">
             <h2>Images of Space</h2>
-            <RenderImages/>
-            <RenderImages/>
-            <RenderImages/>
-        </section>
+            <div className="gallery">
+                <RenderImages />
+            </div>
+        </div>
     )
 }
